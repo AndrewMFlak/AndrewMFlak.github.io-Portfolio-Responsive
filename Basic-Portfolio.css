@@ -1,4 +1,56 @@
-@media only screen and (max-width: 940px) {
+
+@media only screen and (max-width: 768px) {
+        
+    .rightColumn {
+                clear: both;
+                overflow: auto;
+                padding:20px;
+                width: 270px;
+                float: left;
+                margin: 30px 100px 0 0;
+                position: relative;
+                background-color: white;
+                border: 2px solid gray;
+    }
+    .rightColumnContact {
+                clear: both;
+                overflow: auto;
+                padding:20px;
+                width: 270px;
+                float: left;
+                margin: 30px 60px 0 0;
+                position: relative;
+                background-color: white;
+                border: 2px solid gray;
+    }
+}
+            
+    @media only screen and (max-width: 640px) {
+                    
+    .rightColumn {
+                            clear: both;
+                            overflow: auto;
+                            padding:20px;
+                            width: 270px;
+                            float: left;
+                            margin: 30px 100px 0 0;
+                            position: relative;
+                            background-color: white;
+                            border: 2px solid gray;
+    }
+    .rightColumnContact {
+                            clear: both;
+                            overflow: auto;
+                            padding:20px;
+                            width: 270px;
+                            float: left;
+                            margin: 30px 60px 0 0;
+                            position: relative;
+                            background-color: white;
+                            border: 2px solid gray;
+    }
+}
+
 body {
     font-family: serif;
     box-sizing: border-box;
@@ -209,431 +261,4 @@ Input[type="text"] {
     height: 150px;
     width: 640px;
 }
-}
-@media only screen and (max-width: 768px) {
-    body {
-            font-family: serif;
-            box-sizing: border-box;
-            background: url("assets/images/brickwall.jpg");
-            background-repeat: repeat;
-            
-        }
-        .headerContainer {
-            clear: both;
-            overflow: auto;
-            background-color: silver;
-            border-bottom: 3px solid gray;
-            height: 80px;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        .headerName {
-            clear: both;
-            overflow: auto;
-            float: left;
-            font-size: 38px;
-            height: 60px;
-            padding: 20px 20px 0 20px;
-            margin: 0 0 0 140px;
-            background-color: crimson;
-            color: white;
-            position: static;
-        }
-        .headerNav {
-            clear: both;
-            overflow: auto;
-            float: right;
-            height: 30px;
-            width: 170px;
-            padding: 20px 20px 20px 20px;
-            margin: 0px 140px 0 0;
-            color: gray;
-            position: absolute;
-            left: 1050px;
-        }
-        .Container {
-            clear: both;
-            overflow: auto;
-        }
-        h2 {
-            clear: both;
-            overflow: auto;
-            color: gray;
-            font-size: 22px;
-            font-family: serif;
-            border-bottom: 3px solid gray;
-        }
-            
-        .leftColumn {
-            clear: both;
-            overflow: auto;
-            padding: 20px;
-            width: 650px;
-            height: 66.66%;
-            float: left;
-            position: absolute;
-            margin: 30px 40px 30px 140px;
-            background-color: white;
-            border: 2px solid gray;
-        }
-        .leftColumnPort {
-            clear: both;
-            overflow: auto;
-            padding: 20px;
-            width: 650px;
-            height:1100px;
-            float: left;
-            position: absolute;
-            margin: 30px 40px 30px 140px;
-            background-color: white;
-            border: 2px solid gray;
-        }
-        
-        .leftColumnContact {
-            clear: both;
-            overflow: auto;
-            padding: 20px;
-            width: 650px;
-            height:485px;
-            float: left;
-            position: absolute;
-            margin: 30px 40px 30px 140px;
-            background-color: white;
-            border: 2px solid gray;
-        }
-        .portColumn1 {
-            clear: both;
-            overflow: auto;
-            border: 2px solid silver;
-            float: left;
-            position: relative;
-            width: auto;
-            height: 886px;
-        }
-        .genreTag1 {
-            clear: both;
-            overflow: auto;
-            position: absolute;
-            Padding-top: 8px;
-            background-color: crimson;
-            color: white;
-            font-size: 20px; 
-            width: 256px;
-            height: 25px;
-            text-align: center;
-        }
-        .portColumn2 {
-            clear: both;
-            overflow: auto;
-            border: 2px solid silver;
-            position: absolute;
-            left: 410px;
-            width: auto;
-            height: 886px;
-        }
-        .genreTag2 {
-            clear: both;
-            overflow: auto;
-            position: absolute;
-            Padding-top: 8px;
-            background-color: crimson;
-            color: white;
-            font-size: 20px; 
-            width: 256px;
-            height: 25px;
-            text-align: center;
-        }
-        .portRow {
-            margin-bottom: 20px;
-        }
-        .image {
-            clear: both;
-            overflow: auto;
-            position: relative;
-            float: left;
-            width: 184px;
-            height: 184px;
-            padding: 0;
-            border: 2px solid silver;
-            margin: 0 2px 2px 0;
-        
-        }
-        .Text {
-            clear: both;
-            overflow: auto;
-            text-indent: 20px;
-            margin: 10px;
-            font-size: 14px;
-            text-align: justify;
-            line-height: 20px;
-        }
-        h1 {
-            clear: both;
-            overflow: auto;
-            color: gray;
-            font-size: 38px;
-            font-family: serif;
-            border-bottom: 3px solid gray;
-        }
-        .rightColumn {
-            clear: both;
-            overflow: auto;
-            padding:20px;
-            width: 270px;
-            float: left;
-            margin: 30px 100px 0 0;
-            position: relative;
-            background-color: white;
-            border: 2px solid gray;
-        }
-        .rightColumnContact {
-            clear: both;
-            overflow: auto;
-            padding:20px;
-            width: 270px;
-            float: left;
-            margin: 30px 60px 0 0;
-            position: relative;
-            background-color: white;
-            border: 2px solid gray;
-        }
-        .footer {
-            clear: both;
-            overflow: auto;
-            position: absolute;
-            bottom: 0;
-            height: 60px;
-            width: 100%;
-            background-color: silver;
-            text-align: center;
-            font-size: 10px;
-            border-top: 6px solid crimson;
-            color: white;
-        }
-        Input[type="text"] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-        }
-        #subject {
-            height: 150px;
-            width: 640px;
-        }
-    }
-            @media only screen and (max-width: 640px) {
-                body {
-                        font-family: serif;
-                        box-sizing: border-box;
-                        background: url("assets/images/brickwall.jpg");
-                        background-repeat: repeat;
-                        
-                    }
-                    .headerContainer {
-                        clear: both;
-                        overflow: auto;
-                        background-color: silver;
-                        border-bottom: 3px solid gray;
-                        height: 80px;
-                        width: 100%;
-                        margin: 0;
-                        padding: 0;
-                    }
-                    .headerName {
-                        clear: both;
-                        overflow: auto;
-                        float: left;
-                        font-size: 38px;
-                        height: 60px;
-                        padding: 20px 20px 0 20px;
-                        margin: 0 0 0 140px;
-                        background-color: crimson;
-                        color: white;
-                        position: static;
-                    }
-                    .headerNav {
-                        clear: both;
-                        overflow: auto;
-                        float: right;
-                        height: 30px;
-                        width: 170px;
-                        padding: 20px 20px 20px 20px;
-                        margin: 0px 140px 0 0;
-                        color: gray;
-                        position: absolute;
-                        left: 1050px;
-                    }
-                    .Container {
-                        clear: both;
-                        overflow: auto;
-                    }
-                    h2 {
-                        clear: both;
-                        overflow: auto;
-                        color: gray;
-                        font-size: 22px;
-                        font-family: serif;
-                        border-bottom: 3px solid gray;
-                    }
-                        
-                    .leftColumn {
-                        clear: both;
-                        overflow: auto;
-                        padding: 20px;
-                        width: 650px;
-                        height: 66.66%;
-                        float: left;
-                        position: absolute;
-                        margin: 30px 40px 30px 140px;
-                        background-color: white;
-                        border: 2px solid gray;
-                    }
-                    .leftColumnPort {
-                        clear: both;
-                        overflow: auto;
-                        padding: 20px;
-                        width: 650px;
-                        height:1100px;
-                        float: left;
-                        position: absolute;
-                        margin: 30px 40px 30px 140px;
-                        background-color: white;
-                        border: 2px solid gray;
-                    }
-                    
-                    .leftColumnContact {
-                        clear: both;
-                        overflow: auto;
-                        padding: 20px;
-                        width: 650px;
-                        height:485px;
-                        float: left;
-                        position: absolute;
-                        margin: 30px 40px 30px 140px;
-                        background-color: white;
-                        border: 2px solid gray;
-                    }
-                    .portColumn1 {
-                        clear: both;
-                        overflow: auto;
-                        border: 2px solid silver;
-                        float: left;
-                        position: relative;
-                        width: auto;
-                        height: 886px;
-                    }
-                    .genreTag1 {
-                        clear: both;
-                        overflow: auto;
-                        position: absolute;
-                        Padding-top: 8px;
-                        background-color: crimson;
-                        color: white;
-                        font-size: 20px; 
-                        width: 256px;
-                        height: 25px;
-                        text-align: center;
-                    }
-                    .portColumn2 {
-                        clear: both;
-                        overflow: auto;
-                        border: 2px solid silver;
-                        position: absolute;
-                        left: 410px;
-                        width: auto;
-                        height: 886px;
-                    }
-                    .genreTag2 {
-                        clear: both;
-                        overflow: auto;
-                        position: absolute;
-                        Padding-top: 8px;
-                        background-color: crimson;
-                        color: white;
-                        font-size: 20px; 
-                        width: 256px;
-                        height: 25px;
-                        text-align: center;
-                    }
-                    .portRow {
-                        margin-bottom: 20px;
-                    }
-                    .image {
-                        clear: both;
-                        overflow: auto;
-                        position: relative;
-                        float: left;
-                        width: 184px;
-                        height: 184px;
-                        padding: 0;
-                        border: 2px solid silver;
-                        margin: 0 2px 2px 0;
-                    
-                    }
-                    .Text {
-                        clear: both;
-                        overflow: auto;
-                        text-indent: 20px;
-                        margin: 10px;
-                        font-size: 14px;
-                        text-align: justify;
-                        line-height: 20px;
-                    }
-                    h1 {
-                        clear: both;
-                        overflow: auto;
-                        color: gray;
-                        font-size: 38px;
-                        font-family: serif;
-                        border-bottom: 3px solid gray;
-                    }
-                    .rightColumn {
-                        clear: both;
-                        overflow: auto;
-                        padding:20px;
-                        width: 270px;
-                        float: left;
-                        margin: 30px 100px 0 0;
-                        position: relative;
-                        background-color: white;
-                        border: 2px solid gray;
-                    }
-                    .rightColumnContact {
-                        clear: both;
-                        overflow: auto;
-                        padding:20px;
-                        width: 270px;
-                        float: left;
-                        margin: 30px 60px 0 0;
-                        position: relative;
-                        background-color: white;
-                        border: 2px solid gray;
-                    }
-                    .footer {
-                        clear: both;
-                        overflow: auto;
-                        position: absolute;
-                        bottom: 0;
-                        height: 60px;
-                        width: 100%;
-                        background-color: silver;
-                        text-align: center;
-                        font-size: 10px;
-                        border-top: 6px solid crimson;
-                        color: white;
-                    }
-                    Input[type="text"] {
-                        width: 100%;
-                        padding: 12px 20px;
-                        margin: 8px 0;
-                        box-sizing: border-box;
-                    }
-                    #subject {
-                        height: 150px;
-                        width: 640px;
-                    }
-                }
-                  
-                     
-         
+
