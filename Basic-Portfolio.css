@@ -211,30 +211,7 @@ Input[type="text"] {
 
 @media only screen and (max-width: 768px) {
         
-    .rightColumn {
-                clear: both;
-                overflow: auto;
-                padding:20px;
-                width: 270px;
-                float: left;
-                position: absolute;
-                bottom: 0;
-                left:0;
-                background-color: white;
-                border: 2px solid gray;
-    }
-    .rightColumnContact {
-                clear: both;
-                overflow: auto;
-                padding:20px;
-                width: 270px;
-                float: left;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                background-color: white;
-                border: 2px solid gray;
-    }
+    
     .leftColumnPort {
         clear: both;
         overflow: auto;
@@ -258,10 +235,56 @@ Input[type="text"] {
         background-color:crimson;
         border: 2px solid gray;
     }
+    .rightColumn {
+        clear: both;
+        overflow: auto;
+        padding:20px;
+        width: 270px;
+        float: left;
+        position: absolute;
+        bottom: 0;
+        left:0;
+        background-color: white;
+        border: 2px solid gray;
+}
+.rightColumnContact {
+        clear: both;
+        overflow: auto;
+        padding:20px;
+        width: 270px;
+        float: left;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        border: 2px solid gray;
+}
 }
             
     @media only screen and (max-width: 640px) {
-                    
+        .leftColumnPort {
+            clear: both;
+            overflow: auto;
+            padding: 20px;
+            width: 40%;
+            height:auto;
+            float: left;
+            position: relative;
+            background-color:crimson;
+            border: 2px solid gray;
+        }
+        
+        .leftColumnContact {
+            clear: both;
+            overflow: auto;
+            padding: 20px;
+            width: 60%;
+            height:auto;
+            float: left;
+            position: relative;
+            background-color:crimson;
+            border: 2px solid gray;
+        }               
     .rightColumn {
                             clear: both;
                             overflow: auto;
@@ -285,29 +308,7 @@ Input[type="text"] {
                             background-color:crimson;
                             border: 2px solid gray;
     }
-    .leftColumnPort {
-        clear: both;
-        overflow: auto;
-        padding: 20px;
-        width: 40%;
-        height:auto;
-        float: left;
-        position: relative;
-        background-color:crimson;
-        border: 2px solid gray;
-    }
     
-    .leftColumnContact {
-        clear: both;
-        overflow: auto;
-        padding: 20px;
-        width: 60%;
-        height:auto;
-        float: left;
-        position: relative;
-        background-color:crimson;
-        border: 2px solid gray;
-    }
 }
 
 
