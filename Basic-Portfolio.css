@@ -235,6 +235,31 @@ Input[type="text"] {
                 background-color: white;
                 border: 2px solid gray;
     }
+    .leftColumnPort {
+        clear: both;
+        overflow: auto;
+        padding: 20px;
+        width: 450px;
+        height:1300px;
+        float: left;
+        position: absolute;
+        margin: 30px 40px 30px 140px;
+        background-color: white;
+        border: 2px solid gray;
+    }
+    
+    .leftColumnContact {
+        clear: both;
+        overflow: auto;
+        padding: 20px;
+        width: 450px;
+        height:685px;
+        float: left;
+        position: absolute;
+        margin: 30px 40px 30px 140px;
+        background-color: white;
+        border: 2px solid gray;
+    }
 }
             
     @media only screen and (max-width: 640px) {
@@ -262,6 +287,31 @@ Input[type="text"] {
                             bottom: 0;
                             background-color: white;
                             border: 2px solid gray;
+    }
+    .leftColumnPort {
+        clear: both;
+        overflow: auto;
+        padding: 20px;
+        width: 450px;
+        height:1300px;
+        float: left;
+        position: absolute;
+        margin: 30px 40px 30px 140px;
+        background-color: white;
+        border: 2px solid gray;
+    }
+    
+    .leftColumnContact {
+        clear: both;
+        overflow: auto;
+        padding: 20px;
+        width: 450px;
+        height:685px;
+        float: left;
+        position: absolute;
+        margin: 30px 40px 30px 140px;
+        background-color: white;
+        border: 2px solid gray;
     }
 }
 
