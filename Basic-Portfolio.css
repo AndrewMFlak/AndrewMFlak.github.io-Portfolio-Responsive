@@ -251,11 +251,10 @@ Input[type="text"] {
         clear: both;
         overflow: auto;
         padding: 20px;
-        width: 70%;
+        width: 60%;
         height:auto;
         float: left;
         position: relative;
-        margin: 30px 40px 30px 140px;
         background-color:crimson;
         border: 2px solid gray;
     }
@@ -268,7 +267,6 @@ Input[type="text"] {
                             overflow: auto;
                             padding:20px;
                             width: 270px;
-                            float: left;
                             margin: 30px 100px 0 0;
                             position: absolute;
                             bottom: 0;
@@ -281,8 +279,6 @@ Input[type="text"] {
                             overflow: auto;
                             padding:20px;
                             width: 270px;
-                            float: left;
-                            margin: 30px 60px 0 0;
                             position: absolute;
                             Left: 0;
                             bottom: 0;
@@ -297,7 +293,6 @@ Input[type="text"] {
         height:auto;
         float: left;
         position: relative;
-        margin: 30px 40px 30px 140px;
         background-color:crimson;
         border: 2px solid gray;
     }
@@ -306,11 +301,10 @@ Input[type="text"] {
         clear: both;
         overflow: auto;
         padding: 20px;
-        width: 70%;
+        width: 60%;
         height:auto;
         float: left;
         position: relative;
-        margin: 30px 40px 30px 140px;
         background-color:crimson;
         border: 2px solid gray;
     }
