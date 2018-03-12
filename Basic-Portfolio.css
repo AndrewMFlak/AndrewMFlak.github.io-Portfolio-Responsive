@@ -8,7 +8,8 @@
                 width: 270px;
                 float: left;
                 margin: 30px 100px 0 0;
-                position: relative;
+                position: absolute;
+                bottom: 0;
                 background-color: white;
                 border: 2px solid gray;
     }
@@ -19,7 +20,8 @@
                 width: 270px;
                 float: left;
                 margin: 30px 60px 0 0;
-                position: relative;
+                position: absolute;
+                bottom: 0;
                 background-color: white;
                 border: 2px solid gray;
     }
@@ -34,7 +36,8 @@
                             width: 270px;
                             float: left;
                             margin: 30px 100px 0 0;
-                            position: relative;
+                            position: absolute;
+                            bottom: 0;
                             background-color: white;
                             border: 2px solid gray;
     }
@@ -45,7 +48,8 @@
                             width: 270px;
                             float: left;
                             margin: 30px 60px 0 0;
-                            position: relative;
+                            position: absolute;
+                            bottom: 0;
                             background-color: white;
                             border: 2px solid gray;
     }
